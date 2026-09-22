@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # `>_ Security Researcher`
@@ -23,14 +22,14 @@
 
 ## `whoami`
 
-I am a cybersecurity enthusiast with a background in **system administration and infrastructure management**, currently expanding my focus toward **OSINT, reverse engineering and security research**.
+> I am a cybersecurity enthusiast wasting time on **system administration and infrastructure management**, while slowly losing faith in software, currently forcing myself to look into **OSINT, reverse engineering and security research**.
+> 
+> Everything started with the harsh reality of infrastructure — configuring servers that will eventually fail, managing users who will break things, maintaining Linux-based environments that constantly demand attention, and realizing how fragile underlying systems actually are.
+> 
+> Today, the focus shifts toward a darker domain: accepting that software is insecure by design, searching for inevitable flaws, analyzing binaries, and trying to build a low-level perspective on security before everything collapses anyway.
 
-My experience started with the practical side of infrastructure — configuring servers, managing users and permissions, maintaining Linux-based environments and understanding how systems operate beneath the surface.
-
-Today, my focus is moving deeper into the security domain: understanding how software, systems and infrastructure behave, identifying weaknesses, analysing binaries and developing a stronger low-level perspective on security.
-
-> **Infrastructure taught me how systems are built.
-> Security teaches me how they can be understood, tested and strengthened.**
+> **> "Infrastructure taught me how fragile systems are built.
+> > Security just confirms that nothing is truly safe, everything can be exploited, and misconfigurations are everywhere."**
 
 ---
 
@@ -42,128 +41,104 @@ Today, my focus is moving deeper into the security domain: understanding how sof
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  [01] Cybersecurity                                         │
-│       └─ Security fundamentals & defensive practices        │
+│       └─ Expecting failures & defensive damage control      │
 │                                                             │
 │  [02] OSINT                                                  │
-│       └─ Open-source intelligence & information analysis     │
+│       └─ Digging up data nobody wanted exposed               │
 │                                                             │
 │  [03] Reverse Engineering                                    │
-│       └─ Binary analysis, program behaviour & internals      │
+│       └─ Staring at messy assembly & broken binaries        │
 │                                                             │
 │  [04] System Administration                                  │
-│       └─ Servers, Linux, users, permissions & infrastructure │
+│       └─ Fighting Linux servers, permissions & inevitable bugs│
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
-```
+background
+🖥️ System Administration
+My foundation comes from dealing with broken infrastructure and endless system administration tasks.
 
----
+Areas I've wasted too much time on include:
 
-## `background`
+Linux server administration (and fixing what breaks)
 
-### 🖥️ System Administration
+Server configuration and maintenance
 
-My foundation comes from working with infrastructure and system administration.
+User and group management (mostly dealing with permission hell)
 
-Areas I have worked with include:
+File and system permissions
 
-* Linux server administration
-* Server configuration and maintenance
-* User and group management
-* File and system permissions
-* Access control
-* Service configuration
-* Infrastructure troubleshooting
-* Basic network and system security
-* Automation of repetitive administrative tasks
+Access control bypasses in daily practice
 
-This experience gave me an understanding of how systems are structured, how services interact with each other, and how permissions affect the security of an environment.
+Service configuration (that rarely works on the first try)
 
----
+Infrastructure troubleshooting
 
-### 🔎 OSINT
+Basic network and system security (which is usually an illusion)
 
-I am currently developing my skills in **Open-Source Intelligence**.
+Automation of repetitive administrative tasks to delay burnout
 
-My interest is focused on the technical side of information gathering and analysis:
+This experience gave me a bleak understanding of how systems are structured, how poorly services interact, and how a single wrong permission can ruin everything.
 
-* Open-source information discovery
-* Information correlation
-* Digital footprint analysis
-* Metadata analysis
-* Infrastructure reconnaissance
-* Domain and DNS intelligence
-* Publicly available technical information
-* Building structured investigation workflows
+🔎 OSINT
+I am trying to tolerate Open-Source Intelligence.
 
-The goal is not simply to collect information, but to **connect individual pieces into a meaningful technical picture**.
+My interest is narrowed down to the cold, analytical side of information gathering:
 
----
+Open-source information discovery (finding what people forgot to hide)
 
-### ⚙️ Reverse Engineering
+Information correlation
 
-Another area I am actively exploring is **reverse engineering**.
+Digital footprint analysis (we leave too much behind)
 
-I am interested in understanding software from the inside — how binaries work, how programs interact with the operating system, and how their behaviour can be analysed without relying solely on source code.
+Metadata analysis
+
+Infrastructure reconnaissance
+
+Domain and DNS intelligence
+
+Publicly available technical information leaks
+
+Building structured investigation workflows
+
+The goal isn't to be optimistic about privacy — it's to prove that absolute privacy is an illusion.
+
+⚙️ Reverse Engineering
+Another area I am reluctantly exploring is reverse engineering.
+
+I am interested in understanding software because developers rarely write clean code — figuring out how binaries actually work, how programs lie to the operating system, and how their behavior can be analyzed without trusting source code.
 
 Current areas of interest:
 
-* Binary analysis
-* Program behaviour analysis
-* Static analysis
-* Dynamic analysis
-* Assembly fundamentals
-* x86/x64 architecture
-* Executable formats
-* Debugging
-* Low-level programming concepts
-* Malware analysis fundamentals
+Binary analysis (and dealing with obfuscation)
 
-> Reverse engineering is, for me, a way to understand software at the level where abstractions begin to disappear.
+Program behavior analysis
 
----
+Static analysis
 
-## `toolbox`
+Dynamic analysis
 
-### Operating Systems
+Assembly fundamentals
 
-<p>
-<img src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white">
-<img src="https://img.shields.io/badge/Windows-111827?style=flat-square&logo=windows&logoColor=white">
-</p>
+x86/x64 architecture
 
-### Security & Research
+Executable formats
 
-<p>
-<img src="https://img.shields.io/badge/OSINT-111827?style=flat-square">
-<img src="https://img.shields.io/badge/Reverse%20Engineering-111827?style=flat-square">
-<img src="https://img.shields.io/badge/Network%20Security-111827?style=flat-square">
-<img src="https://img.shields.io/badge/Digital%20Forensics-111827?style=flat-square">
-</p>
+Debugging endless segmentation faults
 
-### Infrastructure
+Low-level programming concepts
 
-<p>
-<img src="https://img.shields.io/badge/Linux%20Administration-111827?style=flat-square&logo=linux&logoColor=white">
-<img src="https://img.shields.io/badge/Servers-111827?style=flat-square">
-<img src="https://img.shields.io/badge/Networking-111827?style=flat-square">
-<img src="https://img.shields.io/badge/Access%20Control-111827?style=flat-square">
-</p>
+Malware analysis fundamentals (because most software looks like it anyway)
 
-### Development & Low-Level
+> "Reverse engineering is just a painful reminder of how badly software is engineered from the ground up."
 
-<p>
-<img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/C-111827?style=flat-square&logo=c&logoColor=white">
-<img src="https://img.shields.io/badge/Bash-111827?style=flat-square&logo=gnu-bash&logoColor=white">
-<img src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=white">
-</p>
-
----
-
-## `currently_learning`
-
-```text
-Cybersecurity
+toolbox
+Operating Systems
+Security & Research
+Infrastructure
+Development & Low-Level
+currently_learning
+Plaintext
+Cybersecurity (Expect the worst)
     │
     ├── OSINT
     │   ├── Reconnaissance
@@ -171,91 +146,50 @@ Cybersecurity
     │   └── Digital footprint analysis
     │
     ├── Reverse Engineering
-    │   ├── Assembly
+    │   ├── Assembly (pain)
     │   ├── Binary analysis
-    │   ├── Debugging
+    │   ├── Debugging (segfaults)
     │   └── Program internals
     │
     └── Infrastructure Security
-        ├── Linux
-        ├── Access control
-        ├── Networking
-        └── Server security
-```
+        ├── Linux (misconfigurations)
+        ├── Access control (bypasses)
+        ├── Networking (insecurity)
+        └── Server security (illusions)
+projects
+I use my repositories to document experiments, research failures and practical work related to cybersecurity and infrastructure, mostly as a reminder of what went wrong.
 
----
+Areas of interest
+🔬 Security research (mostly breaking things)
 
-## `projects`
+🧩 Reverse engineering experiments (staring at hex)
 
-I use my GitLab to document experiments, research and practical work related to cybersecurity and infrastructure.
+🔎 OSINT investigations (digital stalking)
 
-### Areas of interest
+🐧 Linux administration (fighting systemd)
 
-* 🔬 Security research
-* 🧩 Reverse engineering experiments
-* 🔎 OSINT investigations
-* 🐧 Linux administration
-* 🌐 Network and infrastructure analysis
-* ⚙️ Security tooling
-* 📚 Technical notes and documentation
-* 🧪 Labs and controlled experiments
+🌐 Network and infrastructure analysis
 
-> Most of the interesting work happens while trying to understand **why something behaves the way it does**.
+⚙️ Security tooling
 
----
+📚 Technical notes and documentation (for when I forget why it broke)
 
-## `visual`
+🧪 Labs and controlled experiments
 
-<!--
-  Add your image here.
+> "Most of the time is spent trying to understand why something broke, only to realize it was designed poorly in the first place."
 
-  Recommended:
-  1. Upload the image to your GitLab repository
-  2. Put it in a folder such as /assets/
-  3. Replace the path below
+visual
+philosophy
+Plaintext
+Expect the system to break.
+Question every assumption.
+Analyse the failure.
+Document the bugs.
+Accept that nothing is secure.
+I believe that modern cybersecurity is an endless uphill battle against mounting complexity and inevitable flaws — from infrastructure and permissions to bloated applications, unpatched binaries, and insecure operating systems.
 
-  Example:
-  ![Security](./assets/security.jpg)
--->
+My goal is merely to understand how modern systems fail, why they break, and accept that they probably cannot be fully fixed.
 
-<p align="center">
-  <img src="./assets/security.jpg" width="850" alt="Security Research">
-</p>
-
----
-
-## `philosophy`
-
-```text
-Understand the system.
-Question the assumptions.
-Analyse the behaviour.
-Document the findings.
-Improve the security.
-```
-
-I believe strong cybersecurity comes from understanding systems at multiple levels — from infrastructure and permissions to applications, binaries and the underlying operating system.
-
-My goal is to continue developing across these layers and build a deeper understanding of how modern systems work, fail and can be secured.
-
----
-
-## `activity`
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=storm-cat&show_icons=true&hide_border=true&theme=transparent" alt="GitLab / GitHub Statistics">
-
-</p>
-
----
-
-<div align="center">
-
-### `security is not a product — it's a process of understanding.`
-
-<br>
-
-`[ infrastructure ]` · `[ security ]` · `[ OSINT ]` · `[ reverse engineering ]`
-
-</div>
+activity
+security is an illusion — everything is vulnerable given enough time.
+[ infrastructure ] · [ security ] · [ OSINT ] · [ reverse engineering ]
